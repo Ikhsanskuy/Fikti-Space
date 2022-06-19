@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <title><?=$data1?></title>
-    <link rel="shortcut icon" type="image/x-icon" href="<?=$dir?>LogoUmbra/LOGO UMBRA.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="<?=$dir?>/images/favicon.png"/>
     <link rel="stylesheet" href="<?=$dir?>css/bootstrap.min.css" />
     <link rel="stylesheet" href="<?=$dir?>css/font-awesome.min.css" />
     <link rel="stylesheet" href="<?=$dir?>css/flaticon.css" />

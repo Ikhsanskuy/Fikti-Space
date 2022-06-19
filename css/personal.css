@@ -54,12 +54,69 @@
 .main-timeline5 .timeline-content,.main-timeline5 .timeline:nth-child(2n) .timeline-content{width:100%;float:none;border-radius:0 0 20px 20px;text-align:center;padding:25px 20px;margin:0 auto}
 .main-timeline5 .timeline-content:before,.main-timeline5 .timeline:nth-child(2n) .timeline-content:before{width:15px;height:25px;position:absolute;top:-22px;left:50%;z-index:-1;transform:translate(-50%,0)}
 }
+  
+  
 
+/* @keyframes site-head-logo {
+    0% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    2.15% { transform: matrix3d(0.589, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    4.3% { transform: matrix3d(0.297, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    6.46% { transform: matrix3d(0.158, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    8.61% { transform: matrix3d(0.125, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    14.16% { transform: matrix3d(0.183, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    19.72% { transform: matrix3d(0.205, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    24.9% { transform: matrix3d(0.201, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    25% { transform: matrix3d(0.201, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    27.15% { transform: matrix3d(0.2, 0, 0, 0, 0, 0.589, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    29.3% { transform: matrix3d(0.2, 0, 0, 0, 0, 0.297, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    30.83% { transform: matrix3d(0.2, 0, 0, 0, 0, 0.185, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    31.46% { transform: matrix3d(0.2, 0, 0, 0, 0, 0.158, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    33.61% { transform: matrix3d(0.2, 0, 0, 0, 0, 0.125, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    39.16% { transform: matrix3d(0.2, 0, 0, 0, 0, 0.183, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    41.99% { transform: matrix3d(0.2, 0, 0, 0, 0, 0.201, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    44.72% { transform: matrix3d(0.2, 0, 0, 0, 0, 0.205, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    49.9% { transform: matrix3d(0.2, 0, 0, 0, 0, 0.201, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    50% { transform: matrix3d(0.2, 0, 0, 0, 0, 0.201, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    52.15% { transform: matrix3d(0.611, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    54.3% { transform: matrix3d(0.903, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    55.83% { transform: matrix3d(1.015, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    56.46% { transform: matrix3d(1.042, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    58.61% { transform: matrix3d(1.075, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    64.16% { transform: matrix3d(1.017, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    66.99% { transform: matrix3d(0.999, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    69.72% { transform: matrix3d(0.995, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    74.9% { transform: matrix3d(0.999, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    75% { transform: matrix3d(0.999, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    76.9% { transform: matrix3d(1, 0, 0, 0, 0, 0.629, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    77.85% { transform: matrix3d(1, 0, 0, 0, 0, 0.79, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    78.78% { transform: matrix3d(1, 0, 0, 0, 0, 0.905, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    79.73% { transform: matrix3d(1, 0, 0, 0, 0, 0.984, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    80.68% { transform: matrix3d(1, 0, 0, 0, 0, 1.03, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    80.83% { transform: matrix3d(1, 0, 0, 0, 0, 1.035, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    82.56% { transform: matrix3d(1, 0, 0, 0, 0, 1.058, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    87.56% { transform: matrix3d(1, 0, 0, 0, 0, 1.012, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    91.99% { transform: matrix3d(1, 0, 0, 0, 0, 0.997, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    92.57% { transform: matrix3d(1, 0, 0, 0, 0, 0.997, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    100% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+  } */
 
-
-
+/* BACKGROUND */
 .bg-1{
-    background: linear-gradient( rgba(40, 0, 80, 0.5) 100%, rgba(40, 0, 80, 0.5) 100%),url("../images/bg-1.jpg") ;
+    background: linear-gradient( rgba(40, 0, 80, 0.5) 100%, rgba(40, 0, 80, 0.5) 100%),url("../images/fspace-bg-tengah.jpg") ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-1-nparallax{
+    background: linear-gradient( rgba(40, 0, 80, 0.5) 100%, rgba(40, 0, 80, 0.5) 100%),url("../images/fspace-bg-tengah.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-2{
+    background: linear-gradient( rgba(40, 0, 80, 0.5) 100%, rgba(40, 0, 80, 0.5) 100%),url("../images/fspace-bg-bawah.jpg") ;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,16 +127,63 @@
     background-color: #0f1522;
 }
 
-#site-logo .nav-logo{
-    display: inline;
-    width: 60px;
+.bg-d{
+    background: linear-gradient( rgba(40, 0, 80, 0.3) 100%, rgba(40, 0, 80, 0.3) 100%),url("../images/fspace-bg-bawah.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+}
+.bg-df{
+    background: linear-gradient( rgba(40, 0, 80, 0.3) 100%, rgba(40, 0, 80, 0.3) 100%),url("../images/fspace-bg-bawah.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
 }
 
+.bg-up{
+    background: linear-gradient(to bottom, rgba(40, 0, 80, 0.3), rgba(40, 0, 80, 1)),url("../images/fspace-bg-tengah.jpg") ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+#site-logo .nav-logo{
+    display: inline;
+    width: 180px;
+    height: 100px;
+    object-fit: contain;
+}
+
+/* HOMEPAGE */
 #site-logo .nav-text-logo{
     display: inline;
     position: relative;
     top: 2px;
     transform: translateY(-50%);
+}
+
+.site-content-logo{
+    margin: 60px 40px;
+}
+
+.site-content-logo-img{
+    width: 550px;
+    position: relative;
+    animation: site-head-logo 2000ms linear infinite both;
+}
+
+.text-bigg{
+    font-size: 60px;
+    line-height: 65px;
+}
+@media (max-width: 576px) {
+    .text-bigg{
+        font-size: 40px;
+        line-height: 55px;
+    }
 }
 
 .icon-art{
@@ -96,9 +200,148 @@
     background-color: #e97e2e;
 }
 
-.img-box{
-    background-color: #fff;
+.serv-box-2 .img-box{
+    border-radius: 70px 10px;
+
+    background: linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url("../images/fspace-bg-bawah.jpg") ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.serv-box-2 .img-box .img-box-logo{
+    padding: 20px;
     width: 100%;
     height: 200px;
     object-fit: contain;
+    transition: 500ms;
+}
+
+.serv-box-2:hover .img-box .img-box-logo{
+    padding: 10px;
+}
+
+/* COMPETITION BG */
+.desc-cp{
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 5px;
+}
+.bgc-ml{
+    background: linear-gradient( rgba(40, 0, 80, 0.3) 100%, rgba(40, 0, 80, 0.3) 100%),url("../images/bg-ml.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.bgc-pb{
+    background: linear-gradient( rgba(40, 0, 80, 0.3) 100%, rgba(40, 0, 80, 0.3) 100%),url("../images/bg-pb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.comp-logo-pb{
+    width: 70%;
+}
+.bgc-pubg{
+    background: linear-gradient( rgba(40, 0, 80, 0.3) 100%, rgba(40, 0, 80, 0.3) 100%),url("../images/bg-pubg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.comp-logo-pubg{
+    width: 70%;
+}
+.bgc-valorant{
+    background: linear-gradient( rgba(40, 0, 80, 0.3) 100%, rgba(40, 0, 80, 0.3) 100%),url("../images/bg-valorant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.comp-logo-valorant{
+    width: 50%;
+}
+.bgc-solov{
+    background: linear-gradient( rgba(40, 0, 80, 0.3) 100%, rgba(40, 0, 80, 0.3) 100%),url("../images/bg-solov.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bgc-photography{
+    background: linear-gradient( rgba(40, 0, 80, 0.3) 100%, rgba(40, 0, 80, 0.3) 100%),url("../images/bg-photography.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bgc-poster{
+    background: linear-gradient( rgba(40, 0, 80, 0.3) 100%, rgba(40, 0, 80, 0.3) 100%),url("../images/bg-poster.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+/* COMPETITION more CONTENT */
+#rules{
+    position:absolute;
+    top:0;
+    z-index:-1;
+    width:100%;
+    height:100vh;
+    background-color:rgb(0,0,0,0.5);
+}
+#rules:target{
+    position:absolute;
+    top:0;
+    z-index:10;
+    width:100%;
+    height:100vh;
+    background-color:rgb(0,0,0,0.5);
+}
+
+
+
+/* SNSU */
+@keyframes terbang {
+    0%   {transform: rotate(180deg); position: fixed; top:0vh; left: 200px; translate:50% 50%;}
+    25%  {transform: rotate(360deg); position: fixed; top:47vh; left: -10px; translate:50% 50%;}
+    50%  {transform: rotate(540deg); position: fixed; top:0vh; left: -10px; translate:50% 50%;}
+    75%  {transform: rotate(720deg); position: fixed; top:47vh; left: 200px; translate:50% 50%;}
+    100% {transform: rotate(900deg); position: fixed; top:0vh; left: 200px; translate:50% 50%;}
+}
+.maskot-snsu{
+    width: 15%;
+    animation: terbang;
+    animation-duration: 55s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@media (max-width: 768px) {
+    .maskot-snsu{
+        width: 45%;
+        animation: tidakterbang;
+        position: fixed;
+        top: 50vh;
+        right: 0;
+    }
+}
+
+/* VIEWPORT */
+@media (max-width: 576px) {
+    .mobile-none{
+        display: none;
+    }
+}
+@media (min-width: 576px) {
+    .dekstop-none{
+        display: none;
+    }
+}
+@media (max-width: 767px){
+    .m-none{
+        display: none;
+    }
+    .m-changer{
+        padding: 35px;
+        width: 100%;
+    }
 }

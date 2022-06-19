@@ -25,7 +25,7 @@
             //Preloader
             Royal_Preloader.config({
                 mode           : 'logo',
-                logo           : 'images/fspace-logo.png',
+                logo           : '<?=$dir?>images/fspace-logo.png',
                 logo_size      : [160, 160],
                 showProgress   : true,
                 showPercentage : true,
@@ -39,6 +39,37 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+
+    <!-- CUSTOM JQUERY -->
+    <script>
+        //jQuery for Page Scroll - Single page      
+        $('a[href*="#"]:not([href="#"])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 500);
+                        return false;
+                    }
+            }
+        });
+
+
+
+        // jQuery for Page Navigation
+        $( window ).load(function() {
+
+                    if(window.location.hash) {
+                        var url=window.location.href;
+                        var hash = url.substring(url.indexOf('#')+1);
+                        $('html, body').stop().animate({
+                            scrollTop: $("#"+hash).offset().top
+                        }, 1000);   
+                    }  
+        });
     </script>
 
     
